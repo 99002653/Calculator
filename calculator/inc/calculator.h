@@ -2,6 +2,8 @@
 #define CALCULATOR_H_INCLUDED
 #ifndef __CALCULATOR_OPERATIONS_H__
 #define __CALCULATOR_OPERATIONS_H__
+#ifndef __STDIO_EXT_H__
+#define __STDIO_EXT_H__
 
 #include <stdio.h>
 #include <stdlib.h>
