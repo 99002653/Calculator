@@ -1,9 +1,8 @@
 #ifndef CALCULATOR_H_INCLUDED
 #define CALCULATOR_H_INCLUDED
-#ifndef __CALCULATOR_OPERATIONS_H__
-#define __CALCULATOR_OPERATIONS_H__
-#ifndef __STDIO_EXT_H__
-#define __STDIO_EXT_H__
+#ifndef __CALCULATOR_H__
+#define __CALCULATOR_H__
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -77,3 +76,4 @@
 	    float floor_func(float num1);
 	    float fabsvalue(float num1);
 	#endif
+#endif
