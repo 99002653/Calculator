@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "calculator.h"
-#include "test_calculator.h"
+
 
 float (*p[9]) (float x,float y);
 float (*q[18])(float x);
