@@ -190,3 +190,9 @@ void test_fabsvalue(void)
 {
 CU_ASSERT(1.5 == fabsvalue(-1.5));
 }
+void test_atan2value(void){
+  CU_ASSERT(2.35== atan2value(-0.5,0.5));
+}
+void test_exponent(void){
+  CU_ASSERT(8.166170== exponent(2.100000));
+}
