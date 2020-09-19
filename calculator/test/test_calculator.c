@@ -89,10 +89,10 @@ int main() {
 
 /* Write all the test functions */
 void test_sum(void) {
-  CU_ASSERT(30 == add(10, 20));
+  CU_ASSERT(30 == sum(10, 20));
 
   /* Dummy fail*/
-  CU_ASSERT(1500 == add(750, 7500));
+  CU_ASSERT(1500 == sum(750, 7500));
 }
 
 void test_subtract(void) {
