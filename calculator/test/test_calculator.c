@@ -140,15 +140,15 @@ void test_tan_func(void) {
   CU_ASSERT(1 == tan_func(45));
 }
 void test_bitwise_or(void) {
-  CU_ASSERT(1 == test_bitwise_or(1, 0));
+  CU_ASSERT(1 == bitwise_or(1, 0));
 
 }
 void test_bitwise_and(void) {
-  CU_ASSERT(0 == test_bitwise_and(1, 0));
+  CU_ASSERT(0 == bitwise_and(1, 0));
 
 }
 void test_xor(void){
-CU_ASSERT(1 == test_xor(1, 0));
+CU_ASSERT(1 == xor(1, 0));
 }
 void test_logarithmicvalue(void)
 {
