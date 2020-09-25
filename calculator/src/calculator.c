@@ -46,7 +46,7 @@ float factorial(float num1)
        }
     else
     {
-     return factorial(num1)*factorial(num1-1);
+     return num1*factorial(num1-1);
     }
 }
 float power(float num1, float num2)
